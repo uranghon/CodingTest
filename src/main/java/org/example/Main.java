@@ -6,20 +6,25 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int n = Integer.parseInt(br.readLine());
+        char[] cArr = br.readLine().toUpperCase().toCharArray();
+        int[] aToz = new int[26];
         StringBuilder sb = new StringBuilder();
+        int max = 0;
 
-        for (int i = 0; i < n; i++) {
-            String[] strArr = br.readLine().split(" ");
-            char[] c = strArr[1].toCharArray();
-            for (int j = 0; j < c.length; j++) {
-                for (int k = 0; k < Integer.parseInt(strArr[0]); k++) {
-                    sb.append(c[j]);
-                }
+        for (char c : cArr) {
+//            aToz[c - 'A']++;
+            if (++aToz[c - 'A'] > max) {
+                max = aToz[c - 'A'];
             }
-            sb.append("\n");
         }
-        System.out.print(sb);
+        for (int i = 0; i < aToz.length; i++) {
+            if (aToz[i] == max) {
+                sb.append((char) (i + 'A'));
+            }
+        }
+
+        if (sb.length() > 1) System.out.print("?");
+        else System.out.print(sb);
 
         br.close();
     }

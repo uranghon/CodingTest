@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a07e9b20-6d8b-4f66-a181-0b30545a9ed5" name="Changes" comment="" />
+    <list default="true" id="a07e9b20-6d8b-4f66-a181-0b30545a9ed5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Programmers/lv1_대충만든자판.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Programmers/lv1_바탕화면정리.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Example_10811.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_10811.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Example_1152.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_1152.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Example_1157.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_1157.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Example_2675.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_2675.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Example_2908.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_2908.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Example_5622.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_5622.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,22 +46,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/goyohan/CodingTest/CodingTest&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.3706721&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/goyohan/CodingTest/CodingTest",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.splitter.proportion": "0.3706721"
   }
-}</component>
-  <component name="RunManager" selected="Application.Example_5622">
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Example_2675" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Example_2675" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.Example_2675" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.Backjoon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,11 +71,11 @@
       </method>
     </configuration>
     <configuration name="Example_2908" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Example_2908" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.Example_2908" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.Backjoon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,11 +84,11 @@
       </method>
     </configuration>
     <configuration name="Example_5622" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Example_5622" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.Example_5622" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.Backjoon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,7 +101,7 @@
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.Backjoon.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Example_5622" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Example_5622" />
         <item itemvalue="Application.Example_2908" />
         <item itemvalue="Application.Example_2675" />
       </list>
@@ -115,5 +128,27 @@
       <updated>1677672144799</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

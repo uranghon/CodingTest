@@ -2,7 +2,7 @@ package org.example.Programmers;
 
 import java.util.Arrays;
 
-public class lv1_바탕화면정리 {
+public class Lv1_바탕화면정리 {
     public static void main(String[] args) {
         String[] wallpaper = {"..", "#."};
 

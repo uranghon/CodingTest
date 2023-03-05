@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a07e9b20-6d8b-4f66-a181-0b30545a9ed5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Programmers/lv1_대충만든자판.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Programmers/lv1_바탕화면정리.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Programmers/Lv0_옹알이1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RegexTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Example_10811.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_10811.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Example_1152.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_1152.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Example_1157.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_1157.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Example_2675.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_2675.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Example_2908.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_2908.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Example_5622.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_5622.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Programmers/lv1_대충만든자판.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Programmers/Lv1_대충만든자판.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Programmers/lv1_바탕화면정리.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Programmers/Lv1_바탕화면정리.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,39 +51,39 @@
     "settings.editor.splitter.proportion": "0.3706721"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Example_2675" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.Example_2675" />
-      <module name="CodingTest.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example_2908" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.Example_2908" />
-      <module name="CodingTest.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Lv0_옹알이1">
     <configuration name="Example_5622" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.Example_5622" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.Backjoon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lv0_옹알이1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Programmers.Lv0_옹알이1" />
+      <module name="CodingTest.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Programmers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lv1_대충만든자판" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Programmers.Lv1_대충만든자판" />
+      <module name="CodingTest.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Programmers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegexTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.RegexTest" />
+      <module name="CodingTest.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lv0_옹알이1" />
+        <item itemvalue="Application.RegexTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Lv1_대충만든자판" />
         <item itemvalue="Application.Example_5622" />
-        <item itemvalue="Application.Example_2908" />
-        <item itemvalue="Application.Example_2675" />
       </list>
     </recent_temporary>
   </component>
@@ -145,8 +154,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="20" />
+          <line>10</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

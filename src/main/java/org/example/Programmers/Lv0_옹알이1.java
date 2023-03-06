@@ -11,7 +11,7 @@ public class Lv0_옹알이1 {
         others1();
     }
     static void mine() {
-        String[] babbling = {"ayayeaya", "uuuma", "ye", "yewmaoo", "ayaa"};
+        String[] babbling = {"yemaye", "uuuma", "ye", "yewmaoo", "ayaa", ""};
         String[] able = {"aya", "ye", "woo", "ma"};
         int answer = 0;
 
@@ -29,16 +29,15 @@ public class Lv0_옹알이1 {
         System.out.println("mine answer = " + answer);
     }
     static void others1() {
-        String[] babbling = {"ayaye", "uuuma", "yewoo", "yewmaoo", "ayaa"};
+        String[] babbling = {"yemaye", "uuuma", "yewoo", "yewmaoo", "ayaa", ""};
         int answer = 0;
-
 //        Pattern pattern = Pattern.compile("^((aya|ye|woo|ma)?((aya|ye|woo|ma)?((aya|ye|woo|ma)?(aya|ye|woo|ma)?)))$");
-        Pattern pattern = Pattern.compile("^((aya|ye|woo|ma)?((aya|ye|woo|ma)?((aya|ye|woo|ma)?(aya|ye|woo|ma)?)))$");
-//        Pattern pattern = Pattern.compile("^(?:(?!(aya|ye|woo|ma)).)*$|^(?:(aya|ye|woo|ma)(?!(aya|ye|woo|ma)).)*$");
-        for (String s : babbling) {
-            Matcher matcher = pattern.matcher(s);
-            if (matcher.matches()) {
-                System.out.println(s);
+//        Pattern p = Pattern.compile("^(?:((aya(?!.*aya))|(ye(?!.*ye))|(woo(?!.*woo))|(ma(?!.*ma)))?){0,4}$");
+        Pattern p = Pattern.compile("^(aya(?!.*aya)|ye(?!.*ye)|woo(?!.*woo)|ma(?!.*ma))*$");
+        for (String str : babbling) {
+            Matcher m = p.matcher(str);
+            if(m.matches())
+            {
                 answer++;
             }
         }

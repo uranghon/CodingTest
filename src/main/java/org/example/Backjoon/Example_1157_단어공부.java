@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Example_1157 {
+public class Example_1157_단어공부 {
     public static void main(String[] args) {
 
     }

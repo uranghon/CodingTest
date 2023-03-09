@@ -2,37 +2,23 @@ package org.example;
 
 import java.io.*;
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        String str = "ljes=njak";
+        String regex = "c=|c-|dz=|d-|lj|nj|s=|(?<!d)z=|(?!c=|c-|dz=|d-|lj|nj|s=|(?<!d)z=).";
+        Pattern p = Pattern.compile(regex);
+        Matcher m = p.matcher(str);
 
-        StringBuilder sb = new StringBuilder();
-        for (int i = 1; i <= 2 * n - 1; i++) {
-
-            if(i < n)
-            {
-                for (int j = 1; j <= n - i; j++) {
-                    sb.append(" ");
-                }
-                for (int j = 1; j <= 2 * i - 1; j++) {
-                    sb.append("*");
-                }
-            }
-            else
-            {
-                for (int j = 1; j <= i - n; j++) {
-                    sb.append(" ");
-                }
-                for (int j = 1; j <= (2 * n - i) * 2 - 1; j++) {
-                    sb.append("*");
-                }
-            }
-            sb.append("\n");
+        int c = 0;
+        while (m.find())
+        {
+            System.out.println("찾은거 : " + m.group());
+            c++;
         }
-
-        System.out.println(sb);
+        System.out.print(c);
     }
 
 

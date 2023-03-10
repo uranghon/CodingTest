@@ -1,26 +1,28 @@
 package org.example;
 
+import javax.swing.plaf.synth.SynthUI;
 import java.io.*;
 import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.regex.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        String str = "ljes=njak";
-        String regex = "c=|c-|dz=|d-|lj|nj|s=|(?<!d)z=|(?!c=|c-|dz=|d-|lj|nj|s=|(?<!d)z=).";
-        Pattern p = Pattern.compile(regex);
-        Matcher m = p.matcher(str);
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        int n = Integer.parseInt(br.readLine());
+        //1 7 19 37 61   6 12 18 24 6의 배수 2~7까지가 1칸 이내, 8~19 까지 2칸 이내, 20~37 까지 3칸 이내
+        // 1,2,3,4
+        // 결과 <= 1 이면
+        int i = 1;
 
-        int c = 0;
-        while (m.find())
+        while(n > 1)
         {
-            System.out.println("찾은거 : " + m.group());
-            c++;
+            i++;
+            n = n - 6 * (i - 1);
         }
-        System.out.print(c);
+
+        System.out.print(i);
+
+        br.close();
     }
-
-
 }
 

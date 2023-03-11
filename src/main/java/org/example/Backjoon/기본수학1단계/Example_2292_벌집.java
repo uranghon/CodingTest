@@ -1,4 +1,4 @@
-package org.example.Backjoon;
+package org.example.Backjoon.기본수학1단계;
 
 import java.io.BufferedReader;
 import java.io.IOException;

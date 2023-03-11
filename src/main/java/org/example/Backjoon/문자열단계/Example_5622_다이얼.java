@@ -1,9 +1,9 @@
-package org.example.Backjoon;
+package org.example.Backjoon.문자열단계;
 
 import java.io.*;
 import java.util.*;
 
-public class Example_5622 {
+public class Example_5622_다이얼 {
     public static void main(String[] args) throws IOException  {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         char[] charArray = br.readLine().toCharArray();

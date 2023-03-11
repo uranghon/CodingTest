@@ -1,10 +1,10 @@
-package org.example.Backjoon;
+package org.example.Backjoon.문자열단계;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Example_1152 {
+public class Example_1152_단어의개수 {
     public static void main(String[] args) {
 
     }

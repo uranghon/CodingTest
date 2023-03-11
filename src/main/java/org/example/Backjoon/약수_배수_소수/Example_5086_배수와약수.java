@@ -1,8 +1,8 @@
-package org.example;
+package org.example.Backjoon.약수_배수_소수;
 
 import java.io.*;
 
-public class Main {
+public class Example_5086_배수와약수 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -26,4 +26,3 @@ public class Main {
         br.close();
     }
 }
-

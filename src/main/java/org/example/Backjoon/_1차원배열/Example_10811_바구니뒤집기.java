@@ -1,9 +1,9 @@
-package org.example.Backjoon;
+package org.example.Backjoon._1차원배열;
 
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class Example_10811 {
+public class Example_10811_바구니뒤집기 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String[] sArr = br.readLine().split(" +");

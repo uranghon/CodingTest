@@ -5,41 +5,61 @@ import java.util.Arrays;
 
 public class SortExamples {
     public static void main(String[] args) throws IOException {
-        int[] arr = new int[10_000_000];
+        int[] arr = new int[20];
         int[] arr2 = new int[arr.length];
         int[] arr3 = new int[arr.length];
+        int[] arr4 = new int[arr.length];
 //        int[] test = {28, 14, 29, 29, 23, 14, 13, 3, 4, 28};
-
+        int randomInt = 100;
+        int minusNum = 50;
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = (int)(Math.random() * 1_000_000);
+            arr[i] = (int) (Math.random() * randomInt) - minusNum;
 //            arr[i] = test[i];
             arr2[i] = arr[i];
             arr3[i] = arr[i];
+            arr4[i] = arr[i];
         }
 
-//        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));
+        long l = 0;
+        long l2 = 0;
 
-        long l = System.currentTimeMillis();
+        l = System.currentTimeMillis();
         quickSort(arr, 0, arr.length - 1);
-        long l2 = System.currentTimeMillis();
-//        System.out.println("퀵정렬  : " + Arrays.toString(arr));
-        System.out.println("퀵정렬  : " + (l2 - l));
+        l2 = System.currentTimeMillis();
+        System.out.println("퀵정렬 : " + Arrays.toString(arr));
+//        System.out.println("퀵정렬  : " + (l2 - l));
 
         l = System.currentTimeMillis();
-        quickSort2(arr2, 0, arr2.length - 1);
+        selectionSort(arr2);
         l2 = System.currentTimeMillis();
-//        System.out.println("퀵정렬2 : " + Arrays.toString(arr2));
-        System.out.println("퀵정렬2 : " + (l2 - l));
+        System.out.println("선택정렬 : " + Arrays.toString(arr2));
+//        System.out.println("선택정렬 : " + (l2 - l));
+
+//        l = System.currentTimeMillis();
+//        bubbleSort(arr3);
+//        l2 = System.currentTimeMillis();
+//        System.out.println("버블정렬 : " + Arrays.toString(arr3));
+//        System.out.println("버블정렬 : " + (l2 - l));
 
         l = System.currentTimeMillis();
-        quickSort3(arr3, 0, arr3.length - 1);
+        insertSort(arr4);
         l2 = System.currentTimeMillis();
-//        System.out.println("퀵정렬3 : " + Arrays.toString(arr3));
-        System.out.println("퀵정렬3 : " + (l2 - l));
+        System.out.println("삽입정렬 : " + Arrays.toString(arr4));
+//        System.out.println("삽입정렬 : " + (l2 - l));
 
-        // 수행 속도 평균 빠른 순 : 퀵정렬 - 퀵정렬3 - 퀵정렬2
+        l = System.currentTimeMillis();
+        countingSort(arr3, 0 - minusNum, randomInt - minusNum);
+        l2 = System.currentTimeMillis();
+        System.out.println("카운팅 : " + Arrays.toString(arr3));
+//        System.out.println("카운팅  : " + (l2 - l));
     }
+
+    // 병합 <= 퀵 <= 힙 < 삽입 <= 선택 <= 버블
+    // 카운팅은 논외. 일반적으로는 제일 빠름
+
     //퀵 정렬
+    // 수행 속도 평균 빠른 순 : 퀵정렬 - 퀵정렬3 - 퀵정렬2
     static void quickSort(int[] arr, int fr, int to) {
         if (to - fr < 1) return;
 
@@ -75,10 +95,8 @@ public class SortExamples {
 
         int chkEqualPivot = pivotLeft;
 
-        while(chkEqualPivot >= fr)
-        {
-            if(arr[chkEqualPivot] == arr[pivot])
-            {
+        while (chkEqualPivot >= fr) {
+            if (arr[chkEqualPivot] == arr[pivot]) {
                 int tmp = arr[chkEqualPivot];
                 arr[chkEqualPivot] = arr[pivotLeft];
                 arr[pivotLeft] = tmp;
@@ -89,10 +107,8 @@ public class SortExamples {
 
         chkEqualPivot = pivotRight;
 
-        while(chkEqualPivot <= to)
-        {
-            if(arr[chkEqualPivot] == arr[pivot])
-            {
+        while (chkEqualPivot <= to) {
+            if (arr[chkEqualPivot] == arr[pivot]) {
                 int tmp = arr[chkEqualPivot];
                 arr[chkEqualPivot] = arr[pivotRight];
                 arr[pivotRight] = tmp;
@@ -108,16 +124,14 @@ public class SortExamples {
         boolean chkRight = false;
         // 28 14 29 29 / 23 / 14 13 3 4 12
         // 28 14 29 29 / 23 / 14 13 3 4 12
-        while(idxLeft >= fr && idxRight <= to)
-        {
-            if(arr[idxLeft] > arr[pivot]) chkLeft = true;
+        while (idxLeft >= fr && idxRight <= to) {
+            if (arr[idxLeft] > arr[pivot]) chkLeft = true;
             else idxLeft--;
 
-            if(arr[idxRight] < arr[pivot]) chkRight = true;
+            if (arr[idxRight] < arr[pivot]) chkRight = true;
             else idxRight++;
 
-            if(chkLeft && chkRight)
-            {
+            if (chkLeft && chkRight) {
                 int tmp = arr[idxRight];
                 arr[idxRight] = arr[idxLeft];
                 arr[idxLeft] = tmp;
@@ -129,10 +143,8 @@ public class SortExamples {
             }
         }
 
-        while(idxLeft >= fr)
-        {
-            if(arr[idxLeft] > arr[pivot])
-            {
+        while (idxLeft >= fr) {
+            if (arr[idxLeft] > arr[pivot]) {
                 int tmp = arr[pivotLeft];
                 arr[pivotLeft] = arr[idxLeft];
                 arr[idxLeft] = tmp;
@@ -148,10 +160,8 @@ public class SortExamples {
             idxLeft--;
         }
 
-        while(idxRight <= to)
-        {
-            if(arr[idxRight] < arr[pivot])
-            {
+        while (idxRight <= to) {
+            if (arr[idxRight] < arr[pivot]) {
                 int tmp = arr[pivotRight];
                 arr[pivotRight] = arr[idxRight];
                 arr[idxRight] = tmp;
@@ -181,8 +191,7 @@ public class SortExamples {
         int pivotRight = fr + 1;
 
         while (chkPivotEqual <= to) {
-            if(arr[chkPivotEqual] == arr[pivot])
-            {
+            if (arr[chkPivotEqual] == arr[pivot]) {
                 int tmp = arr[chkPivotEqual];
                 arr[chkPivotEqual] = arr[pivotRight];
                 arr[pivotRight++] = tmp;
@@ -203,8 +212,7 @@ public class SortExamples {
             if (arr[idxRight] < arr[pivot]) chkRight = true;
             else idxRight--;
 
-            if(chkLeft && chkRight)
-            {
+            if (chkLeft && chkRight) {
                 int tmp = arr[idxLeft];
                 arr[idxLeft] = arr[idxRight];
                 arr[idxRight] = tmp;
@@ -222,8 +230,7 @@ public class SortExamples {
         for (int i = 0; i < pivotCnt; i++) {
             int tmp = arr[pivot + i];
 
-            if(arr[idxRight] == tmp)
-            {
+            if (arr[idxRight] == tmp) {
                 idxRight = pivot + i - 1;
                 break;
             }
@@ -239,8 +246,8 @@ public class SortExamples {
         quickSort3(arr, pivotRight, to);
     }
 
-    //버블 정렬
-    static void bubbleSort(int[] arr) {
+    //선택 정렬
+    static void selectionSort(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             int index = i;
             for (int j = i + 1; j < arr.length; j++) {
@@ -251,6 +258,34 @@ public class SortExamples {
             int tmp = arr[i];
             arr[i] = arr[index];
             arr[index] = tmp;
+        }
+    }
+
+    //버블 정렬
+    static void bubbleSort(int[] arr) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = 0; j < arr.length - 1 - i; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    int tmp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = tmp;
+                }
+            }
+        }
+    }
+
+    //삽입 정렬
+    static void insertSort(int[] arr) {
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i - 1] > arr[i]) {
+                for (int j = i; j >= 1; j--) {
+                    if (arr[j] >= arr[j - 1]) break;
+
+                    int tmp = arr[j];
+                    arr[j] = arr[j - 1];
+                    arr[j - 1] = tmp;
+                }
+            }
         }
     }
 
@@ -295,33 +330,97 @@ public class SortExamples {
         }
     }
 
-    //카운팅 정렬
-    static void countingSort() throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+    /**
+     * 카운팅 정렬
+     * arr : 정렬할 배열
+     * min, max : arr 내에 들어있는 데이터의 범위
+     */
+    static void countingSort(int[] arr, int min, int max) {
+        //fr ~ to 는 arr 내에 들어있는 데이터의 범위
+        int[] iArr = new int[max - min + 1];
 
-        int n = Integer.parseInt(br.readLine());
-
-        int[] iArr = new int[10001];
-
-        for (int i = 0; i < n; i++) {
-            iArr[Integer.parseInt(br.readLine())]++;
+        for (int i = 0; i < arr.length; i++) {
+            iArr[arr[i] - min]++;
         }
 
+        int index = 0;
         for (int i = 0; i < iArr.length; i++) {
             for (int j = 0; j < iArr[i]; j++) {
-                bw.write(i + "\n");
+                arr[index++] = i + min;
+            }
+        }
+    }
+
+    static void heapSort(int[] arr) {
+        int[] heapArr = new int[arr.length];
+
+        long l = 0;
+        long l2 = 0;
+
+        l = System.currentTimeMillis();
+        for (int i = 0; i < arr.length; i++) {
+            heapArr[i] = arr[i];
+            makeMinHeapChkParent(heapArr, i);
+        }
+        l2 = System.currentTimeMillis();
+
+        System.out.println("최소힙만들기  : " + (l2 - l));
+
+        int maxIdx = heapArr.length - 1;
+
+        l = System.currentTimeMillis();
+        for (int i = 0; i < arr.length; i++) {
+//            int tmp = heapArr[0];
+            arr[i] = heapArr[0];
+
+            heapArr[0] = heapArr[maxIdx];
+//            heapArr[maxIdx] = tmp;
+            maxIdx--;
+            makeMinHeapChkChild(heapArr, 0, maxIdx);
+        }
+        l2 = System.currentTimeMillis();
+        System.out.println("힙정렬하기  : " + (l2 - l));
+    }
+
+    static void makeMinHeapChkParent(int[] heapArr, int curIdx) {
+        if (curIdx == 0) return;
+        int parentIdx = (curIdx - 1) / 2;
+        if (heapArr[curIdx] < heapArr[parentIdx]) {
+            int tmp = heapArr[curIdx];
+            heapArr[curIdx] = heapArr[parentIdx];
+            heapArr[parentIdx] = tmp;
+            makeMinHeapChkParent(heapArr, parentIdx);
+        }
+    }
+
+    static void makeMinHeapChkChild(int[] heapArr, int curIdx, int maxIdx) {
+        int leftChildIdx = (curIdx * 2) + 1;
+        int rightChildIdx = (curIdx * 2) + 2;
+
+        int smallestIdx = curIdx;
+
+        if (maxIdx == leftChildIdx) {
+            if (heapArr[leftChildIdx] < heapArr[curIdx]) {
+                smallestIdx = leftChildIdx;
+            }
+        } else if (maxIdx >= rightChildIdx) {
+            if (heapArr[leftChildIdx] <= heapArr[rightChildIdx]) {
+                if (heapArr[leftChildIdx] < heapArr[curIdx]) {
+                    smallestIdx = leftChildIdx;
+                }
+            } else {
+                if (heapArr[rightChildIdx] < heapArr[curIdx]) {
+                    smallestIdx = rightChildIdx;
+                }
             }
         }
 
-//        StringBuilder sb = new StringBuilder();
-//        for (int i = 0; i < iArr.length; i++) {
-//            if (iArr[i] > 0) {
-//                sb.append((i + "\n").repeat(iArr[i]));
-//            }
-//        }
-//        System.out.print(sb);
-        bw.close();
-        br.close();
+        if (smallestIdx > curIdx) {
+            int tmp = heapArr[curIdx];
+            heapArr[curIdx] = heapArr[smallestIdx];
+            heapArr[smallestIdx] = tmp;
+            makeMinHeapChkChild(heapArr, smallestIdx, maxIdx);
+        }
     }
+
 }

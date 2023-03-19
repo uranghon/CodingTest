@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a07e9b20-6d8b-4f66-a181-0b30545a9ed5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_1427_소트인사이드.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_2108_통계학.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_11650_좌표정렬하기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_11651_좌표정렬하기2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,9 +51,22 @@
     "settings.editor.splitter.proportion": "0.3706721"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Example_1427_소트인사이드">
-    <configuration name="Example_10989_수정렬하기3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.정렬단계.Example_10989_수정렬하기3" />
+  <component name="RunManager" selected="Application.Example_11651_좌표정렬하기2">
+    <configuration name="Example_11650_좌표정렬하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.정렬단계.Example_11650_좌표정렬하기" />
+      <module name="CodingTest.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Backjoon.정렬단계.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example_11651_좌표정렬하기2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.정렬단계.Example_11651_좌표정렬하기2" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
@@ -91,19 +104,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_2751_수정렬하기2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.정렬단계.Example_2751_수정렬하기2" />
-      <module name="CodingTest.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.정렬단계.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.정렬단계.SortExamples" />
       <module name="CodingTest.main" />
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example_11651_좌표정렬하기2" />
+        <item itemvalue="Application.Example_11650_좌표정렬하기" />
         <item itemvalue="Application.Example_1427_소트인사이드" />
         <item itemvalue="Application.Example_2108_통계학" />
         <item itemvalue="Application.SortExamples" />
-        <item itemvalue="Application.Example_2751_수정렬하기2" />
-        <item itemvalue="Application.Example_10989_수정렬하기3" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +196,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/SortExamples.java</url>
           <line>63</line>
           <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_11650_좌표정렬하기.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_1193_분수찾기.java</url>

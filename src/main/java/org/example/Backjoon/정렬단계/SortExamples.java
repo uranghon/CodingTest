@@ -246,7 +246,12 @@ public class SortExamples {
         quickSort3(arr, pivotRight, to);
     }
 
-    //선택 정렬
+    /** 선택 정렬(Selection Sort)
+     *  배열에서 최솟값을 찾아 정렬하는것을 반복하는 방법.
+     *  한바퀴에 1개씩 정렬된다.
+     *  n, n-1, n-2, ... , 1 번 수행된다.
+     *  (n+1)*n/2
+     */
     static void selectionSort(int[] arr) {
         for (int i = 0; i < arr.length; i++) {
             int index = i;
@@ -289,15 +294,27 @@ public class SortExamples {
         }
     }
 
-    //병합 정렬
+
+    /** 병합 정렬
+     * 1. 반으로 짜르기를 길이 1인 배열로 될 때까지 쪼갠다.
+     * 2. 인접한 배열(짤리기 전 함께했던 배열)과 정렬하며 합병 하는 방식이다.
+     * 3. 아래서 올라온 애들은 이미 반반은 정렬되어있으므로 왼쪽꺼 오른쪽꺼 맨 앞부터 서로 비교하면서 작은걸 앞으로 보내는 정렬을 한다
+     *
+     * n -> 1 이 될때까지 2로 x번 나누면 된다. x = log_2(n) 이다.
+     * x 는 곧 계층의 갯수를 의미하고, 각 계층에서 비교되는 횟수는 원소의 갯수 n이니까
+     * nlog_2(n) 의 시간복잡도를 갖는다.
+     *
+     * 그리고 안정적인 정렬이다.
+     * -> 원배열에서 동일 key값을 가진 원소들의 순서를 정렬 후에도 유지한다.
+     */
     static void mergeSort(int[] arr, int fr, int to) {
         if (fr == to) return;
 
-        int mid = (fr + to) / 2;
+        int mid = fr / 2 + to / 2;
+
         // 분할하는 부분
         mergeSort(arr, fr, mid);
         mergeSort(arr, mid + 1, to);
-
 
         // 정렬하는 부분.
         int[] tmpArr = Arrays.copyOfRange(arr, fr, to + 1);
@@ -308,24 +325,14 @@ public class SortExamples {
         while (left <= mid - fr || right <= to - fr) {
             if (left > mid - fr) break; // left 가 넘어가면 어짜피 남은 right 부분은 전부 left 보다 큼.
             else if (right > to - fr) { // rigth 가 넘어가면 남은 left 부분을 cur 뒤에 추가.
-                arr[cur] = tmpArr[left];
-                cur++;
-                left++;
+                arr[cur++] = tmpArr[left++];
             } else if (tmpArr[left] < tmpArr[right]) { // left 부분 값 넣기.
-                arr[cur] = tmpArr[left];
-                cur++;
-                left++;
+                arr[cur++] = tmpArr[left++];
             } else if (tmpArr[left] > tmpArr[right]) { // rigth 부분 값 넣기.
-                arr[cur] = tmpArr[right];
-                cur++;
-                right++;
+                arr[cur++] = tmpArr[right++];
             } else { // left 부분 값이랑 rigth 부분 값 cur 랑 cur + 1 위치에 넣가.
-                arr[cur] = tmpArr[left];
-                cur++;
-                arr[cur] = tmpArr[right];
-                cur++;
-                left++;
-                right++;
+                arr[cur++] = tmpArr[left++];
+                arr[cur++] = tmpArr[right++];
             }
         }
     }
@@ -370,11 +377,9 @@ public class SortExamples {
 
         l = System.currentTimeMillis();
         for (int i = 0; i < arr.length; i++) {
-//            int tmp = heapArr[0];
             arr[i] = heapArr[0];
 
             heapArr[0] = heapArr[maxIdx];
-//            heapArr[maxIdx] = tmp;
             maxIdx--;
             makeMinHeapChkChild(heapArr, 0, maxIdx);
         }

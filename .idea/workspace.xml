@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a07e9b20-6d8b-4f66-a181-0b30545a9ed5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/브루트포스단계/Example_1018_체스판다시칠하기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/브루트포스단계/Example_19532_수학은비대면강의입니다.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/브루트포스단계/Example_2231_분해합.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/브루트포스단계/Example_2798_블랙잭.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/브루트포스단계/Example_2839_설탕배달.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_13241_최소공배수_유클리드.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_1735_분수합.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_1929_소수구하기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_1934_최소공배수.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_2485_가로수.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_4134_다음소수.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/브루트포스단계/Example_1436_영화감독슘.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/브루트포스단계/Example_1436_영화감독슘.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/브루트포스단계/Example_2231_분해합.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/브루트포스단계/Example_2231_분해합.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_1978_소수찾기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_1978_소수찾기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_2501_약수구하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_2501_약수구하기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_2581_소수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_2581_소수.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_5086_배수와약수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_5086_배수와약수.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_9020_골드바흐의추측.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_9020_골드바흐의추측.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_9506_약수들의합.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_9506_약수들의합.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +64,13 @@
     "settings.editor.splitter.proportion": "0.3706721"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Example_1018_체스판다시칠하기">
-    <configuration name="Example_1018_체스판다시칠하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.브루트포스단계.Example_1018_체스판다시칠하기" />
+  <component name="RunManager" selected="Application.Example_1929_소수구하기">
+    <configuration name="Example_13241_최소공배수_유클리드" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.약수_배수_소수_더빠르게.Example_13241_최소공배수_유클리드" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.브루트포스단계.*" />
+          <option name="PATTERN" value="org.example.Backjoon.약수_배수_소수_더빠르게.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_19532_수학은비대면강의입니다" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.브루트포스단계.Example_19532_수학은비대면강의입니다" />
+    <configuration name="Example_1735_분수합" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.약수_배수_소수_더빠르게.Example_1735_분수합" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.브루트포스단계.*" />
+          <option name="PATTERN" value="org.example.Backjoon.약수_배수_소수_더빠르게.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_2231_분해합" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.브루트포스단계.Example_2231_분해합" />
+    <configuration name="Example_1929_소수구하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.약수_배수_소수_더빠르게.Example_1929_소수구하기" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.브루트포스단계.*" />
+          <option name="PATTERN" value="org.example.Backjoon.약수_배수_소수_더빠르게.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_2798_블랙잭" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.브루트포스단계.Example_2798_블랙잭" />
+    <configuration name="Example_2485_가로수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.약수_배수_소수_더빠르게.Example_2485_가로수" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.브루트포스단계.*" />
+          <option name="PATTERN" value="org.example.Backjoon.약수_배수_소수_더빠르게.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Others3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.정렬단계.Others3" />
+    <configuration name="Example_4134_다음소수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.약수_배수_소수_더빠르게.Example_4134_다음소수" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.정렬단계.*" />
+          <option name="PATTERN" value="org.example.Backjoon.약수_배수_소수_더빠르게.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Example_1018_체스판다시칠하기" />
-        <item itemvalue="Application.Example_19532_수학은비대면강의입니다" />
-        <item itemvalue="Application.Example_2231_분해합" />
-        <item itemvalue="Application.Example_2798_블랙잭" />
-        <item itemvalue="Application.Others3 (1)" />
+        <item itemvalue="Application.Example_1929_소수구하기" />
+        <item itemvalue="Application.Example_4134_다음소수" />
+        <item itemvalue="Application.Example_2485_가로수" />
+        <item itemvalue="Application.Example_1735_분수합" />
+        <item itemvalue="Application.Example_13241_최소공배수_유클리드" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +172,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_1978_소수찾기.java</url>
-          <line>12</line>
+          <line>16</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -254,6 +265,26 @@
           <line>70</line>
           <option name="timeStamp" value="137" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_1934_최소공배수.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_1934_최소공배수.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_1934_최소공배수.java</url>
+          <line>150</line>
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_1934_최소공배수.java</url>
+          <line>200</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_1193_분수찾기.java</url>
           <line>52</line>
@@ -271,6 +302,33 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_1934_최소공배수.java</url>
+          <line>51</line>
+          <properties class="org.example.Backjoon.약수_배수_소수_더빠르게.Example_1934_최소공배수" method="mine2">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_1934_최소공배수.java</url>
+          <line>149</line>
+          <properties class="org.example.Backjoon.약수_배수_소수_더빠르게.Example_1934_최소공배수" method="mine5">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_1934_최소공배수.java</url>
+          <line>174</line>
+          <properties class="org.example.Backjoon.약수_배수_소수_더빠르게.Example_1934_최소공배수" method="mine6">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="152" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

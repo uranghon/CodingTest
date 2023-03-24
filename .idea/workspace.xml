@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a07e9b20-6d8b-4f66-a181-0b30545a9ed5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/브루트포스단계/Example_2839_설탕배달.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_13241_최소공배수_유클리드.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_1735_분수합.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_1929_소수구하기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_1934_최소공배수.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_2485_가로수.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_4134_다음소수.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_13909_창문닫기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_17103_골드바흐파티션.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_4948_베르트랑공준.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_10815_숫자카드.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_14425_문자열집합.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/브루트포스단계/Example_1436_영화감독슘.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/브루트포스단계/Example_1436_영화감독슘.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/브루트포스단계/Example_2231_분해합.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/브루트포스단계/Example_2231_분해합.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_1978_소수찾기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_1978_소수찾기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_2501_약수구하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_2501_약수구하기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_2581_소수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_2581_소수.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_5086_배수와약수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_5086_배수와약수.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_9020_골드바흐의추측.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_9020_골드바흐의추측.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_9506_약수들의합.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_9506_약수들의합.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +54,22 @@
     "settings.editor.splitter.proportion": "0.3706721"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Example_1929_소수구하기">
-    <configuration name="Example_13241_최소공배수_유클리드" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.약수_배수_소수_더빠르게.Example_13241_최소공배수_유클리드" />
+  <component name="RunManager" selected="Application.Example_14425_문자열집합">
+    <configuration name="Example_10815_숫자카드" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.집합과맵단계.Example_10815_숫자카드" />
+      <module name="CodingTest.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Backjoon.집합과맵단계.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example_13909_창문닫기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.약수_배수_소수_더빠르게.Example_13909_창문닫기" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +81,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_1735_분수합" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.약수_배수_소수_더빠르게.Example_1735_분수합" />
+    <configuration name="Example_14425_문자열집합" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.집합과맵단계.Example_14425_문자열집합" />
+      <module name="CodingTest.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Backjoon.집합과맵단계.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example_17103_골드바흐파티션" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.약수_배수_소수_더빠르게.Example_17103_골드바흐파티션" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
@@ -91,34 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_1929_소수구하기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.약수_배수_소수_더빠르게.Example_1929_소수구하기" />
-      <module name="CodingTest.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.약수_배수_소수_더빠르게.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example_2485_가로수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.약수_배수_소수_더빠르게.Example_2485_가로수" />
-      <module name="CodingTest.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.약수_배수_소수_더빠르게.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example_4134_다음소수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.약수_배수_소수_더빠르게.Example_4134_다음소수" />
+    <configuration name="Example_4948_베르트랑공준" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.약수_배수_소수_더빠르게.Example_4948_베르트랑공준" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
@@ -132,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Example_1929_소수구하기" />
-        <item itemvalue="Application.Example_4134_다음소수" />
-        <item itemvalue="Application.Example_2485_가로수" />
-        <item itemvalue="Application.Example_1735_분수합" />
-        <item itemvalue="Application.Example_13241_최소공배수_유클리드" />
+        <item itemvalue="Application.Example_14425_문자열집합" />
+        <item itemvalue="Application.Example_10815_숫자카드" />
+        <item itemvalue="Application.Example_13909_창문닫기" />
+        <item itemvalue="Application.Example_17103_골드바흐파티션" />
+        <item itemvalue="Application.Example_4948_베르트랑공준" />
       </list>
     </recent_temporary>
   </component>

@@ -24,10 +24,16 @@ import java.io.*;
  * 입력으로 주어진 N에 대해서, 해당하는 칸토어 집합의 근사를 출력한다.
  */
 public class Example_4779_칸토어집합 {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+    static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
+    public static void main(String[] args) throws IOException {
+//        mine1();
+        mine2();
+        bw.flush();
+    }
+
+    static void mine1() throws IOException {
         String space = " ";
         String str = "";
         while ((str = br.readLine()) != null) {
@@ -40,6 +46,29 @@ public class Example_4779_칸토어집합 {
             bw.write(sb.toString());
             bw.newLine();
         }
-        bw.flush();
+    }
+
+    static void mine2() throws IOException {
+        String str = "";
+
+        while ((str = br.readLine()) != null) {
+            int n = Integer.parseInt(str);
+            int repeatCnt = (int) Math.pow(3, n);
+            char[] chars = "-".repeat(repeatCnt).toCharArray();
+            cantor(chars, n, 0, repeatCnt - 1);
+            bw.write(chars);
+            bw.newLine();
+        }
+    }
+
+    static void cantor(char[] chars, int n, int fr, int to) {
+        if (n == 0) return;
+
+        int s = (int) Math.pow(3, n - 1);
+        for (int i = fr + s; i < fr + s * 2; i++) {
+            chars[i] = ' ';
+        }
+        cantor(chars, n - 1, fr, fr + s - 1);
+        cantor(chars, n - 1, fr + s * 2, to);
     }
 }

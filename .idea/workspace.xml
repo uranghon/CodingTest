@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a07e9b20-6d8b-4f66-a181-0b30545a9ed5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/백트래킹단계/Example_15649_N과M_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/백트래킹단계/Example_15650_N과M_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/백트래킹단계/Example_15651_N과M_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/백트래킹단계/Example_15652_N과M_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/재귀단계/Example_2447_별찍기10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/백트래킹단계/Example_14888_연산자끼워넣기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/백트래킹단계/Example_14889_스타트와링크.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/백트래킹단계/Example_2580_스도쿠.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/백트래킹단계/Example_9663_NQueen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/재귀단계/Example_4779_칸토어집합.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/재귀단계/Example_4779_칸토어집합.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,22 +40,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/goyohan/CodingTest/CodingTest",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "settings.editor.splitter.proportion": "0.3706721"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/goyohan/CodingTest/CodingTest&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.3706721&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Example_15652_N과M_4">
-    <configuration name="Example_15649_N과M_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.백트래킹단계.Example_15649_N과M_1" />
+}</component>
+  <component name="RunManager" selected="Application.Example_14889_스타트와링크">
+    <configuration name="Example_14888_연산자끼워넣기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.백트래킹단계.Example_14888_연산자끼워넣기" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_15650_N과M_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.백트래킹단계.Example_15650_N과M_2" />
+    <configuration name="Example_14889_스타트와링크" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.백트래킹단계.Example_14889_스타트와링크" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_15651_N과M_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.백트래킹단계.Example_15651_N과M_3" />
+    <configuration name="Example_2580_스도쿠" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.백트래킹단계.Example_2580_스도쿠" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
@@ -95,8 +93,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_15652_N과M_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.백트래킹단계.Example_15652_N과M_4" />
+    <configuration name="Example_9663_NQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.백트래킹단계.Example_9663_NQueen" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
@@ -108,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_2447_별찍기10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.재귀단계.Example_2447_별찍기10" />
+    <configuration name="NQueens2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.백트래킹단계.NQueens2" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.재귀단계.*" />
+          <option name="PATTERN" value="org.example.Backjoon.백트래킹단계.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Example_15652_N과M_4" />
-        <item itemvalue="Application.Example_15651_N과M_3" />
-        <item itemvalue="Application.Example_15650_N과M_2" />
-        <item itemvalue="Application.Example_15649_N과M_1" />
-        <item itemvalue="Application.Example_2447_별찍기10" />
+        <item itemvalue="Application.Example_14889_스타트와링크" />
+        <item itemvalue="Application.Example_14888_연산자끼워넣기" />
+        <item itemvalue="Application.Example_2580_스도쿠" />
+        <item itemvalue="Application.NQueens2" />
+        <item itemvalue="Application.Example_9663_NQueen" />
       </list>
     </recent_temporary>
   </component>
@@ -290,6 +288,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/재귀단계/Example_4779_칸토어집합.java</url>
           <line>32</line>
           <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/백트래킹단계/Example_9663_NQueen.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/백트래킹단계/Example_2580_스도쿠.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="192" />
         </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_1193_분수찾기.java</url>

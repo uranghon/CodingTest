@@ -4,6 +4,18 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * 지민이는 자신의 저택에서 MN개의 단위 정사각형으로 나누어져 있는 M×N 크기의 보드를 찾았다.
+ * 어떤 정사각형은 검은색으로 칠해져 있고, 나머지는 흰색으로 칠해져 있다. 지민이는 이 보드를 잘라서 8×8 크기의 체스판으로 만들려고 한다.
+ * 체스판은 검은색과 흰색이 번갈아서 칠해져 있어야 한다.
+ * 구체적으로, 각 칸이 검은색과 흰색 중 하나로 색칠되어 있고, 변을 공유하는 두 개의 사각형은 다른 색으로 칠해져 있어야 한다.
+ * 따라서 이 정의를 따르면 체스판을 색칠하는 경우는 두 가지뿐이다. 하나는 맨 왼쪽 위 칸이 흰색인 경우, 하나는 검은색인 경우이다.
+ *
+ * 보드가 체스판처럼 칠해져 있다는 보장이 없어서, 지민이는 8×8 크기의 체스판으로 잘라낸 후에 몇 개의 정사각형을 다시 칠해야겠다고 생각했다.
+ * 당연히 8*8 크기는 아무데서나 골라도 된다. 지민이가 다시 칠해야 하는 정사각형의 최소 개수를 구하는 프로그램을 작성하시오.
+ *
+ *
+ */
 public class Example_1018_체스판다시칠하기 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
@@ -12,9 +24,9 @@ public class Example_1018_체스판다시칠하기 {
         int n = Integer.parseInt(s[0]);
         int m = Integer.parseInt(s[1]);
 
-//        mine(n, m);
+        mine(n, m);
 //        mine2(n, m);
-        others(n, m);
+//        others(n, m);
     }
 
     static void mine(int n, int m) throws IOException {
@@ -44,7 +56,7 @@ public class Example_1018_체스판다시칠하기 {
 //                        if(board[i][j + 1] != c2) check++;
                         c = c == 'W' ? 'B' : 'W';
                     }
-                    c = c == 'W' ? 'B' : 'W';
+                    c = c == 'W' ? 'B' : 'W'; // 위에 보면 마지막 컬럼에서 작업후에 또 바꾸니까 여기서 다시 바꿔줘야함.
 //                    c1 = c1 == 'W' ? 'B' : 'W';
 //                    c2 = c1 == 'W' ? 'B' : 'W';
                 }
@@ -66,6 +78,10 @@ public class Example_1018_체스판다시칠하기 {
         System.out.print(min);
     }
 
+    /**
+     * W, B 대신 TRUE, FALSE 로 받는 방법.
+     * 알고리즘 자체는 mine 이랑 같다.
+     */
     static void mine2(int n, int m) throws IOException {
 
         boolean[][] board = new boolean[n][m];

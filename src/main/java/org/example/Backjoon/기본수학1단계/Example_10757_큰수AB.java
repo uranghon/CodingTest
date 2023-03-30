@@ -5,6 +5,16 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.math.BigInteger;
 
+/**
+ * 준나 큰 두 정수 A와 B를 입력받은 다음, A+B를 출력하는 프로그램을 작성하시오.
+ * -입력-
+ * 첫째 줄에 A와 B가 주어진다. (0 < A,B < 10^10000)
+ * -출력-
+ * 첫째 줄에 A+B를 출력한다.
+ * -풀이-
+ * 1. BigInteger 사용
+ * 2. 두 수를 char형 배열로 만들어서 끝에서부터 비교해서 더하고 올리는 식으로 계산한다.
+ */
 public class Example_10757_큰수AB {
     public static void main(String[] args) throws IOException {
 //        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

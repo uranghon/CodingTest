@@ -20,8 +20,5 @@ public class Example_10250_ACM호텔 {
             bw.write(String.format("%d", y) + String.format("%02d", x));
             bw.newLine();
         }
-
-        bw.close();
-        br.close();
     }
 }

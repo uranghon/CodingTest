@@ -3,10 +3,12 @@ package org.example.Backjoon.문자열단계;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.StringTokenizer;
 
 public class Example_1152_단어의개수 {
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws IOException {
+        test();
     }
     static void test() throws IOException {
         //        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -21,9 +23,11 @@ public class Example_1152_단어의개수 {
 //
 //        br.close();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String[] strArr = br.readLine().trim().split(" ");
-        if (strArr[0].isEmpty()) System.out.println(0);
-        else System.out.println(strArr.length);
-        br.close();
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        System.out.println(st.countTokens());
+//        String[] strArr = br.readLine().trim().split(" ");
+//        System.out.println(Arrays.toString(strArr));
+//        if (strArr[0].isEmpty()) System.out.println(0);
+//        else System.out.println(strArr.length);
     }
 }

@@ -4,13 +4,12 @@ import java.io.*;
 import java.util.*;
 
 public class Example_5622_다이얼 {
-    public static void main(String[] args) throws IOException  {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         char[] charArray = br.readLine().toCharArray();
 
         int s = 0;
-        for(char c : charArray)
-        {
+        for (char c : charArray) {
             s += dialNum2(c);
         }
 
@@ -18,8 +17,7 @@ public class Example_5622_다이얼 {
         br.close();
     }
 
-    static int dialNum1(char c)
-    {
+    static int dialNum1(char c) {
         Map<String, Integer> dialMap = new HashMap<>();
         dialMap.put("A", 2);
         dialMap.put("B", 2);
@@ -50,49 +48,50 @@ public class Example_5622_다이얼 {
 
         return dialMap.get(c + "");
     }
+
     static int dialNum2(char c) {
         int num = 0;
         switch (c) {
-            case 'A' :
-            case 'B' :
-            case 'C' :
+            case 'A':
+            case 'B':
+            case 'C':
                 num = 2;
                 break;
-            case 'D' :
-            case 'E' :
-            case 'F' :
+            case 'D':
+            case 'E':
+            case 'F':
                 num = 3;
                 break;
-            case 'G' :
-            case 'H' :
-            case 'I' :
+            case 'G':
+            case 'H':
+            case 'I':
                 num = 4;
                 break;
-            case 'J' :
-            case 'K' :
-            case 'L' :
+            case 'J':
+            case 'K':
+            case 'L':
                 num = 5;
                 break;
-            case 'M' :
-            case 'N' :
-            case 'O' :
+            case 'M':
+            case 'N':
+            case 'O':
                 num = 6;
                 break;
-            case 'P' :
-            case 'Q' :
-            case 'R' :
-            case 'S' :
+            case 'P':
+            case 'Q':
+            case 'R':
+            case 'S':
                 num = 7;
                 break;
-            case 'T' :
-            case 'U' :
-            case 'V' :
+            case 'T':
+            case 'U':
+            case 'V':
                 num = 8;
                 break;
-            case 'W' :
-            case 'X' :
-            case 'Y' :
-            case 'Z' :
+            case 'W':
+            case 'X':
+            case 'Y':
+            case 'Z':
                 num = 9;
                 break;
         }
@@ -102,9 +101,9 @@ public class Example_5622_다이얼 {
     static int dialNum3(char c) {
         int num = 0;
 
-        if(c - 'A' < 15) num = ((c - 'A') / 3) + 2;
-        else if(c - 'A' >= 15 && c - 'A' <=18) num = 7;
-        else if(c - 'A' >= 19 && c - 'A' <=21) num = 8;
+        if (c - 'A' < 15) num = ((c - 'A') / 3) + 2;
+        else if (c - 'A' >= 15 && c - 'A' <= 18) num = 7;
+        else if (c - 'A' >= 19 && c - 'A' <= 21) num = 8;
         else num = 9;
 
         return num;

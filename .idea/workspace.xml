@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a07e9b20-6d8b-4f66-a181-0b30545a9ed5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/백트래킹단계/Example_14888_연산자끼워넣기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/백트래킹단계/Example_14889_스타트와링크.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/백트래킹단계/Example_2580_스도쿠.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/백트래킹단계/Example_9663_NQueen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/_1차원배열/Example_10811_바구니뒤집기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/_1차원배열/Example_10811_바구니뒤집기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/_2차원배열/Example_10798_세로읽기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/_2차원배열/Example_10798_세로읽기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/_2차원배열/Example_2563_색종이.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/_2차원배열/Example_2563_색종이.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/_2차원배열/Example_2566_최댓값.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/_2차원배열/Example_2566_최댓값.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/_2차원배열/Example_2738_행렬덧셈.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/_2차원배열/Example_2738_행렬덧셈.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/기본수학1단계/Example_10250_ACM호텔.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/기본수학1단계/Example_10250_ACM호텔.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/기본수학1단계/Example_10757_큰수AB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/기본수학1단계/Example_10757_큰수AB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/기본수학1단계/Example_2292_벌집.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/기본수학1단계/Example_2292_벌집.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/기본수학1단계/Example_2720_세탁소사장동혁.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/기본수학1단계/Example_2720_세탁소사장동혁.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/기본수학1단계/Example_2775_부녀회장이될테야.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/기본수학1단계/Example_2775_부녀회장이될테야.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/기본수학1단계/Example_2869_달팽이는올라가고싶다.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/기본수학1단계/Example_2869_달팽이는올라가고싶다.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/기본수학1단계/Example_2903_중앙이동알고리즘.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/기본수학1단계/Example_2903_중앙이동알고리즘.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/문자열단계/Example_1152_단어의개수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/문자열단계/Example_1152_단어의개수.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/문자열단계/Example_5622_다이얼.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/문자열단계/Example_5622_다이얼.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/백트래킹단계/Example_14889_스타트와링크.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/백트래킹단계/Example_14889_스타트와링크.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +64,33 @@
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.3706721&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Example_14889_스타트와링크">
+  <component name="RunManager" selected="Application.Example_1152_단어의개수">
+    <configuration name="Example_10798_세로읽기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon._2차원배열.Example_10798_세로읽기" />
+      <module name="CodingTest.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Backjoon._2차원배열.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example_1152_단어의개수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.문자열단계.Example_1152_단어의개수" />
+      <module name="CodingTest.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Backjoon.문자열단계.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Example_14888_연산자끼워넣기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.백트래킹단계.Example_14888_연산자끼워넣기" />
       <module name="CodingTest.main" />
@@ -80,38 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_2580_스도쿠" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.백트래킹단계.Example_2580_스도쿠" />
+    <configuration name="Example_2738_행렬덧셈" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon._2차원배열.Example_2738_행렬덧셈" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.백트래킹단계.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example_9663_NQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.백트래킹단계.Example_9663_NQueen" />
-      <module name="CodingTest.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.백트래킹단계.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NQueens2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.백트래킹단계.NQueens2" />
-      <module name="CodingTest.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.백트래킹단계.*" />
+          <option name="PATTERN" value="org.example.Backjoon._2차원배열.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example_1152_단어의개수" />
+        <item itemvalue="Application.Example_10798_세로읽기" />
+        <item itemvalue="Application.Example_2738_행렬덧셈" />
         <item itemvalue="Application.Example_14889_스타트와링크" />
         <item itemvalue="Application.Example_14888_연산자끼워넣기" />
-        <item itemvalue="Application.Example_2580_스도쿠" />
-        <item itemvalue="Application.NQueens2" />
-        <item itemvalue="Application.Example_9663_NQueen" />
       </list>
     </recent_temporary>
   </component>

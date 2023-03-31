@@ -4,11 +4,21 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * 알파벳 대소문자로 된 단어가 주어지면, 이 단어에서 가장 많이 사용된 알파벳이 무엇인지 알아내는 프로그램을 작성하시오. 단, 대문자와 소문자를 구분하지 않는다.
+ *
+ * 첫째 줄에 이 단어에서 가장 많이 사용된 알파벳을 대문자로 출력한다. 단, 가장 많이 사용된 알파벳이 여러 개 존재하는 경우에는 ?를 출력한다.
+ *
+ * -풀이-
+ * 알파벳 26개 크기 int 형 배열 만들고
+ * 입력값 문자 하나하나 읽으면서 해당하는 배열의 값을 1씩 더해준다.
+ * a,A 는 0 번째, b,B는 1번째, c,C는 2번째, ... z,Z 는 25번째 위치
+ */
 public class Example_1157_단어공부 {
     public static void main(String[] args) {
 
     }
-    static void 내꺼() throws IOException {
+    static void mine() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         char[] cArr = br.readLine().toUpperCase().toCharArray();
         int[] aToz = new int[26];
@@ -33,7 +43,7 @@ public class Example_1157_단어공부 {
         br.close();
     }
 
-    static void 남꺼_좋은거() throws IOException {
+    static void others() throws IOException {
         int[] arr = new int[26];
         int c = System.in.read();
         while (c > 64) {

@@ -16,6 +16,10 @@ import java.io.*;
  * 첫 번째 숫자가 두 번째 숫자의 약수이다.
  * 첫 번째 숫자가 두 번째 숫자의 배수이다.
  * 첫 번째 숫자가 두 번째 숫자의 약수와 배수 모두 아니다.
+ *
+ * -풀이-
+ * a 를 b 로 나눴을 때, 나머지가 0 이면 a 는 b 의 배수이고, b 는 a 의 약수이다.
+ * a 를 b로 나누거나 b 를 a 로 나눴을 때, 나머지가 남아버리면 서로 남남이다.
  */
 public class Example_5086_배수와약수 {
     public static void main(String[] args) throws IOException {

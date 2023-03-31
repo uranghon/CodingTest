@@ -18,6 +18,10 @@ import java.io.InputStreamReader;
  * 그래서 6의 약수는 1, 2, 3, 6, 총 네 개이다.
  *
  * 두 개의 자연수 N과 K가 주어졌을 때, N의 약수들 중 K번째로 작은 수를 출력하는 프로그램을 작성하시오.
+ *
+ * -풀이-
+ * n을 1부터 n 까지 나누면서 나머지가 0이 되는 수를 체크한다.
+ * k번째로 나머지가 0이 되는 애를 출력한다.
  */
 public class Example_2501_약수구하기 {
     public static void main(String[] args) throws IOException {

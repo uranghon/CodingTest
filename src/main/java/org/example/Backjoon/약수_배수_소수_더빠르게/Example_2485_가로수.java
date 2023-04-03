@@ -21,6 +21,10 @@ import java.io.InputStreamReader;
  *
  * - 출력 -
  * 모든 가로수가 같은 간격이 되도록 새로 심어야 하는 가로수의 최소수를 첫 번째 줄에 출력한다.
+ *
+ * - 풀이 -
+ * 처음 두 수의 최대 공약수를 구하고, 해당 수랑 다음 수랑 최대공약수 구하고, 이걸 마지막 수까지 반복한다.
+ * 즉 모든 수의 최대공약수가 간격이다.
  */
 public class Example_2485_가로수 {
     public static void main(String[] args) throws IOException {
@@ -35,6 +39,7 @@ public class Example_2485_가로수 {
             gcd = getGCD(gcd, tree[i] - tree[i - 1]);
         }
         System.out.print((tree[n - 1] - tree[0]) / gcd  - (n - 1));
+//        System.out.print((tree[n - 1] - tree[0]) / gcd - 1 - (n - 2));
     }
 
     static int getGCD(int a, int b)

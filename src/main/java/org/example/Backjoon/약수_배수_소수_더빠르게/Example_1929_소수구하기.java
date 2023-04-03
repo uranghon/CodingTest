@@ -2,6 +2,14 @@ package org.example.Backjoon.약수_배수_소수_더빠르게;
 
 import java.io.*;
 
+/**
+ * M이상 N이하의 소수를 모두 출력하는 프로그램을 작성하시오.
+ *
+ * -풀이-
+ * N 짜리 크기의 boolean 형 배열 만들고, 에라토스테네스의 체로 거른다.
+ * 다음 M 부터 N 까지 가면서 소수를 출력한다.
+ */
+
 public class Example_1929_소수구하기 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

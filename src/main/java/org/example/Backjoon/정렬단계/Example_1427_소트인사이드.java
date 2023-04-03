@@ -6,6 +6,20 @@ import java.util.Comparator;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+/**
+ * 배열을 정렬하는 것은 쉽다. 수가 주어지면, 그 수의 각 자리수를 내림차순으로 정렬해보자.
+ *
+ * -입력-
+ * 첫째 줄에 정렬하려고 하는 수 N이 주어진다. N은 1,000,000,000보다 작거나 같은 자연수이다.
+ *
+ * -출력-
+ * 입력된 값을 내림차순으로 정렬한 수를 출력한다.
+ * ex) 2143 -> 4321, 999998999 -> 999999998, 61423 -> 64321, 403580 -> 854300
+ *
+ * -풀이-
+ * 1. 보면 한 자리의 수는 0~9까지암. 그러면 크기 10짜리 배열 만들어서 각 인덱스에 해당하는 애들 몇개 나오는지 체크하고 9부터 0까지 출력한다.
+ * 2. char형 or String형 배열로 만들어서 앞뒤 비교 정렬문 내림차순으로 만들어서 출력
+ */
 public class Example_1427_소트인사이드 {
 
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

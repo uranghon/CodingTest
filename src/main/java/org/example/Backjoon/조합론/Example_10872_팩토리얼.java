@@ -1,4 +1,4 @@
-package org.example.Backjoon.재귀단계;
+package org.example.Backjoon.조합론;
 
 import java.util.Scanner;
 

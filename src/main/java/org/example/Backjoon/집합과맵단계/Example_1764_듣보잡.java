@@ -14,6 +14,8 @@ import java.util.*;
  *
  * -- 출력 --
  * 듣보잡의 수와 그 명단을 사전순으로 출력한다.
+ *
+ *
  */
 public class Example_1764_듣보잡 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

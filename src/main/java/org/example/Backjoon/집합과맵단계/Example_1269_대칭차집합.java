@@ -11,6 +11,15 @@ import java.util.*;
  *
  * 예를 들어, A = { 1, 2, 4 } 이고, B = { 2, 3, 4, 5, 6 } 라고 할 때,
  * A-B = { 1 } 이고, B-A = { 3, 5, 6 } 이므로, 대칭 차집합의 원소의 개수는 1 + 3 = 4개이다.
+ *
+ * -풀이-
+ * set으로 일단 a 받음
+ * a 받은 set에다가 b를 받는데 b의 요소가 a에 들어있는지 체크하면서 있으면 중복cnt 1씩 증가시키면서 받음
+ * 다 받고나면 중복된 애들이랑 아닌애들이 set에 들어있음.
+ * set의 요소 갯수에서 중복cnt를 빼면 됨.
+ *
+ * 혹은 입력값이 a몇개, b몇개라는게 있으니까
+ * 중복되는 애가 발견되면 -2씩 하면 됨.
  */
 public class Example_1269_대칭차집합 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -15,6 +15,9 @@ import java.util.*;
  *
  * -- 출력 --
  * 첫째 줄에 M개의 문자열 중에 총 몇 개가 집합 S에 포함되어 있는지 출력한다.
+ *
+ * -풀이-
+ * set이던 map이던 뭐던 해서 M개의 문자열을 contains 체크해서 있으면 +1 씩 해서 출력
  */
 public class Example_14425_문자열집합 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -18,6 +18,13 @@ import java.util.regex.Pattern;
  * 그 다음 줄부터 총 M개의 줄에 내가 맞춰야하는 문제가 입력으로 들어와.
  * 문제가 알파벳으로만 들어오면 포켓몬 번호를 말해야 하고, 숫자로만 들어오면, 포켓몬 번호에 해당하는 문자를 출력해야해.
  * 입력으로 들어오는 숫자는 반드시 1보다 크거나 같고, N보다 작거나 같고, 입력으로 들어오는 문자는 반드시 도감에 있는 포켓몬의 이름만 주어져.
+ *
+ * -풀이-
+ * 배열과 맵 필요
+ * 배열 : 이름 담을 String 배열
+ * 맵 : 이름에 대한 번호 담을 Map<String, Integer>
+ * 이름 받으면서 배엹에 담고, 해당 이름과 번호를 맵에 담는다.
+ * M개의 테스트케이스 들어올 때, 문자면 맵 읽고, 숫자면 배열 읽어서 출력
  */
 public class Example_1620_나는야포켓몬마스터이다솜 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

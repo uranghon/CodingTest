@@ -21,6 +21,10 @@ import java.util.StringTokenizer;
  *
  * -- 출력 --
  * 첫째 줄에 입력으로 주어진 M개의 수에 대해서, 각 수가 적힌 숫자 카드를 상근이가 몇 개 가지고 있는지를 공백으로 구분해 출력한다.
+ *
+ * -풀이-
+ * 얘는 map or int형 카운팅배열 사용하면 된다.
+ * 입력된 애들의 최소값 최대값을 통해 카운팅 배열의 범위를 좁힐 수 있다.
  */
 public class Example_10816_숫자카드2 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

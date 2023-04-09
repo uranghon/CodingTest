@@ -5,24 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a07e9b20-6d8b-4f66-a181-0b30545a9ed5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/TestCode/MathTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/기본수학1단계/Example_11005_진법변환2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/기본수학1단계/Example_2745_진법변환.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/스택단계/Example_10773_제로.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/스택단계/Example_10828_스택.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/스택단계/Example_1874_스택수열.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/스택단계/Example_4949_균형잡힌세상.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/스택단계/Example_9012_괄호.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/심화2단계/Example_1037_진짜약수.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/심화2단계/Example_20920_영단어암기는괴로워.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/심화2단계/Example_25192_인사성밝은곰곰이.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/심화2단계/Example_26069_붙임성좋은총총이.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/조합론/Example_1010_다리놓기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/조합론/Example_11050_이항계수1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/조합론/Example_15439_베라의패션.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/조합론/Example_24723_녹색거탑.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_11653_소인수분해.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수/Example_11653_소인수분해.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_13241_최소공배수_유클리드.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_13241_최소공배수_유클리드.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_13909_창문닫기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_13909_창문닫기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_17103_골드바흐파티션.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_17103_골드바흐파티션.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_1735_분수합.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_1735_분수합.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_1929_소수구하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_1929_소수구하기.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_1934_최소공배수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_1934_최소공배수.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_2485_가로수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_2485_가로수.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_4948_베르트랑공준.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/약수_배수_소수_더빠르게/Example_4948_베르트랑공준.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/재귀단계/Example_11729_하노이탑이동순서.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/재귀단계/Example_11729_하노이탑이동순서.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/재귀단계/Example_24060_알고리즘수업_병합정렬1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/재귀단계/Example_24060_알고리즘수업_병합정렬1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/재귀단계/Example_2447_별찍기10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/재귀단계/Example_2447_별찍기10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/재귀단계/Example_25501_재귀의귀재.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/재귀단계/Example_25501_재귀의귀재.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/재귀단계/Example_4779_칸토어집합.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/재귀단계/Example_4779_칸토어집합.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_1181_단어정렬.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_1181_단어정렬.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_1427_소트인사이드.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_1427_소트인사이드.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_1193_분수찾기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_1193_분수찾기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/재귀단계/Example_10872_팩토리얼.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/조합론/Example_10872_팩토리얼.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_10814_나이순정렬.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_10814_나이순정렬.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_10989_수정렬하기3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_10989_수정렬하기3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_11650_좌표정렬하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_11650_좌표정렬하기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_11651_좌표정렬하기2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_11651_좌표정렬하기2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_18870_좌표압축.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_18870_좌표압축.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_25305_커트라인.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_25305_커트라인.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_2587_대표값2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_2587_대표값2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_2750_수정렬하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_2750_수정렬하기.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_2751_수정렬하기2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_2751_수정렬하기2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_10815_숫자카드.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_10815_숫자카드.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_10816_숫자카드2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_10816_숫자카드2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_11478_서로다른부분문자열의개수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_11478_서로다른부분문자열의개수.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_1269_대칭차집합.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_1269_대칭차집합.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_14425_문자열집합.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_14425_문자열집합.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_1620_나는야포켓몬마스터이다솜.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_1620_나는야포켓몬마스터이다솜.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_1764_듣보잡.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_1764_듣보잡.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +83,13 @@
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.3706721&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MathTest">
-    <configuration name="Example_10812_바구니순서바꾸기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.심화1단계.Example_10812_바구니순서바꾸기" />
+  <component name="RunManager" selected="Application.Example_1874_스택수열">
+    <configuration name="Example_10773_제로" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.스택단계.Example_10773_제로" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.심화1단계.*" />
+          <option name="PATTERN" value="org.example.Backjoon.스택단계.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_11653_소인수분해" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.약수_배수_소수.Example_11653_소인수분해" />
+    <configuration name="Example_10828_스택" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.스택단계.Example_10828_스택" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.약수_배수_소수.*" />
+          <option name="PATTERN" value="org.example.Backjoon.스택단계.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_1978_소수찾기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.약수_배수_소수.Example_1978_소수찾기" />
+    <configuration name="Example_1874_스택수열" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.스택단계.Example_1874_스택수열" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.약수_배수_소수.*" />
+          <option name="PATTERN" value="org.example.Backjoon.스택단계.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_2941_크로아티아알파벳" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.심화1단계.Example_2941_크로아티아알파벳" />
+    <configuration name="Example_4949_균형잡힌세상" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.스택단계.Example_4949_균형잡힌세상" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.심화1단계.*" />
+          <option name="PATTERN" value="org.example.Backjoon.스택단계.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.TestCode.MathTest" />
+    <configuration name="Example_9012_괄호" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.스택단계.Example_9012_괄호" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.TestCode.*" />
+          <option name="PATTERN" value="org.example.Backjoon.스택단계.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MathTest" />
-        <item itemvalue="Application.Example_11653_소인수분해" />
-        <item itemvalue="Application.Example_1978_소수찾기" />
-        <item itemvalue="Application.Example_10812_바구니순서바꾸기" />
-        <item itemvalue="Application.Example_2941_크로아티아알파벳" />
+        <item itemvalue="Application.Example_1874_스택수열" />
+        <item itemvalue="Application.Example_4949_균형잡힌세상" />
+        <item itemvalue="Application.Example_9012_괄호" />
+        <item itemvalue="Application.Example_10773_제로" />
+        <item itemvalue="Application.Example_10828_스택" />
       </list>
     </recent_temporary>
   </component>
@@ -179,27 +196,27 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_2750_수정렬하기.java</url>
-          <line>21</line>
+          <line>35</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_2750_수정렬하기.java</url>
-          <line>23</line>
+          <line>37</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_2587_대표값2.java</url>
-          <line>35</line>
+          <line>59</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_10989_수정렬하기3.java</url>
-          <line>26</line>
+          <line>36</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_10989_수정렬하기3.java</url>
-          <line>32</line>
+          <line>42</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -214,12 +231,12 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_11650_좌표정렬하기.java</url>
-          <line>15</line>
+          <line>29</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_10814_나이순정렬.java</url>
-          <line>92</line>
+          <line>110</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -234,7 +251,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_10814_나이순정렬.java</url>
-          <line>75</line>
+          <line>93</line>
           <option name="timeStamp" value="106" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -244,12 +261,12 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_18870_좌표압축.java</url>
-          <line>101</line>
+          <line>128</line>
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_18870_좌표압축.java</url>
-          <line>32</line>
+          <line>59</line>
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -259,7 +276,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_18870_좌표압축.java</url>
-          <line>271</line>
+          <line>298</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -289,12 +306,12 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_10816_숫자카드2.java</url>
-          <line>52</line>
+          <line>56</line>
           <option name="timeStamp" value="156" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_14425_문자열집합.java</url>
-          <line>62</line>
+          <line>65</line>
           <option name="timeStamp" value="157" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -322,9 +339,29 @@
           <line>46</line>
           <option name="timeStamp" value="198" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_18870_좌표압축.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/심화2단계/Example_20920_영단어암기는괴로워.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/스택단계/Example_10828_스택.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/스택단계/Example_10828_스택.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_1193_분수찾기.java</url>
-          <line>52</line>
+          <line>74</line>
           <properties class="org.example.Backjoon.Example_1193_분수찾기" method="others1">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -333,7 +370,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/정렬단계/Example_2750_수정렬하기.java</url>
-          <line>73</line>
+          <line>87</line>
           <properties class="org.example.Backjoon.정렬단계.Example_2750_수정렬하기" method="quickSort">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -369,7 +406,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_1764_듣보잡.java</url>
-          <line>26</line>
+          <line>28</line>
           <properties class="org.example.Backjoon.집합과맵단계.Example_1764_듣보잡" method="mine1">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -378,7 +415,7 @@
         </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/집합과맵단계/Example_1269_대칭차집합.java</url>
-          <line>20</line>
+          <line>29</line>
           <properties class="org.example.Backjoon.집합과맵단계.Example_1269_대칭차집합" method="mine1">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

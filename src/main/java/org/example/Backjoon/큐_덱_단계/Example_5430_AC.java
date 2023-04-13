@@ -53,11 +53,7 @@ public class Example_5430_AC {
 
                 if(ls == lSize - 1) sb.deleteCharAt(sb.length() - 1);
             }
-//            while (!list.isEmpty())
-//            {
-//                if(blLeft) sb.append(list.pollFirst()).append(",");
-//                else sb.append(list.pollLast()).append(",");
-//            }
+
             sb.append("]");
             System.out.println(sb);
         }

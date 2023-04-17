@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a07e9b20-6d8b-4f66-a181-0b30545a9ed5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/동적계획법1단계/Example_10844_쉬운계단수.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/동적계획법1단계/Example_11053_가장긴증가하는부분수열.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/동적계획법1단계/Example_11054_가장긴바이토닉부분수열.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/동적계획법1단계/Example_1149_RGB거리.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/동적계획법1단계/Example_1463_1로만들기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/동적계획법1단계/Example_1904_01타일.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/동적계획법1단계/Example_1912_연속합.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/동적계획법1단계/Example_1932_정수삼각형.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/동적계획법1단계/Example_2156_포도주시식.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/동적계획법1단계/Example_24416_알고리즘수업_피보나치수1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/동적계획법1단계/Example_2579_계단오르기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/동적계획법1단계/Example_9184_신나는함수실행.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/동적계획법1단계/Example_9461_파도반수열.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/재귀단계/Example_27433_팩토리얼2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/누적합단계/Example_11659_구간합구하기4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/누적합단계/Example_16139_인간컴퓨터상호작용.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/누적합단계/Example_2559_수열.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/동적계획법1단계/Example_12865_평범한배낭.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/동적계획법1단계/Example_2565_전깃줄.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/동적계획법1단계/Example_9251_LCS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/큐_덱_단계/Example_5430_AC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/큐_덱_단계/Example_5430_AC.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +55,22 @@
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.3706721&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Example_11054_가장긴바이토닉부분수열">
-    <configuration name="Example_10844_쉬운계단수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.동적계획법1단계.Example_10844_쉬운계단수" />
+  <component name="RunManager" selected="Application.Example_2559_수열">
+    <configuration name="Example_11659_구간합구하기4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.누적합단계.Example_11659_구간합구하기4" />
+      <module name="CodingTest.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Backjoon.누적합단계.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example_12865_평범한배낭" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.동적계획법1단계.Example_12865_평범한배낭" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +82,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_11053_가장긴증가하는부분수열" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.동적계획법1단계.Example_11053_가장긴증가하는부분수열" />
+    <configuration name="Example_2559_수열" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.누적합단계.Example_2559_수열" />
+      <module name="CodingTest.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Backjoon.누적합단계.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Example_2565_전깃줄" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.동적계획법1단계.Example_2565_전깃줄" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
@@ -91,34 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_11054_가장긴바이토닉부분수열" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.동적계획법1단계.Example_11054_가장긴바이토닉부분수열" />
-      <module name="CodingTest.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.동적계획법1단계.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example_2156_포도주시식" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.동적계획법1단계.Example_2156_포도주시식" />
-      <module name="CodingTest.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.동적계획법1단계.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Example_2579_계단오르기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.동적계획법1단계.Example_2579_계단오르기" />
+    <configuration name="Example_9251_LCS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.동적계획법1단계.Example_9251_LCS" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
@@ -132,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Example_11054_가장긴바이토닉부분수열" />
-        <item itemvalue="Application.Example_11053_가장긴증가하는부분수열" />
-        <item itemvalue="Application.Example_2156_포도주시식" />
-        <item itemvalue="Application.Example_2579_계단오르기" />
-        <item itemvalue="Application.Example_10844_쉬운계단수" />
+        <item itemvalue="Application.Example_2559_수열" />
+        <item itemvalue="Application.Example_11659_구간합구하기4" />
+        <item itemvalue="Application.Example_12865_평범한배낭" />
+        <item itemvalue="Application.Example_9251_LCS" />
+        <item itemvalue="Application.Example_2565_전깃줄" />
       </list>
     </recent_temporary>
   </component>
@@ -380,6 +371,11 @@
           <line>34</line>
           <option name="timeStamp" value="229" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/동적계획법1단계/Example_12865_평범한배낭.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_1193_분수찾기.java</url>
           <line>74</line>
@@ -445,5 +441,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="list.get(5).vPw" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

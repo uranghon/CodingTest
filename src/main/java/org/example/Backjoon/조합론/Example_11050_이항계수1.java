@@ -11,10 +11,21 @@ public class Example_11050_이항계수1 {
         StringTokenizer st = new StringTokenizer(br.readLine());
         int n = Integer.parseInt(st.nextToken());
         int k = Integer.parseInt(st.nextToken());
-        System.out.print(factorial(n) / (factorial(n - k) * factorial(k)));
+//        System.out.println(factorial(n) / (factorial(n - k) * factorial(k)));
+        System.out.println(comb(n, k));
     }
-    static int factorial(int num) {
+
+    static long factorial(int num) {
         if(num == 0) return 1;
         return num * factorial(num - 1);
+    }
+
+    static int comb(int n, int k) {
+        if (n == k) return 1;
+        else if (k == 1) {
+            return n;
+        } else {
+            return comb(n - 1, k - 1) + comb(n - 1, k);
+        }
     }
 }

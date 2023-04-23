@@ -5,16 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a07e9b20-6d8b-4f66-a181-0b30545a9ed5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/그리디알고리즘단계/Example_11047_동전0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/그리디알고리즘단계/Example_11399_ATM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/그리디알고리즘단계/Example_13305_주유소.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/그리디알고리즘단계/Example_1541_잃어버린괄호.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/그리디알고리즘단계/Example_1931_회의실배정.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/누적합단계/Example_10986_나머지합.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/누적합단계/Example_11660_구간합구하기5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/누적합단계/Example_25682_체스판다시칠하기2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/분할정복단계/Example_11401_이항계수3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/분할정복단계/Example_1629_곱셈.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/분할정복단계/Example_1780_종이의개수.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/분할정복단계/Example_1992_쿼드트리.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/분할정복단계/Example_2630_색종이만들기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/분할정복단계/Example_2740_행렬곱셈.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/누적합단계/Example_16139_인간컴퓨터상호작용.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/누적합단계/Example_16139_인간컴퓨터상호작용.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/조합론/Example_11050_이항계수1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Backjoon/조합론/Example_11050_이항계수1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +56,13 @@
     &quot;settings.editor.splitter.proportion&quot;: &quot;0.3706721&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Example_13305_주유소">
-    <configuration name="Example_11047_동전0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.그리디알고리즘단계.Example_11047_동전0" />
+  <component name="RunManager" selected="Application.Example_11401_이항계수3">
+    <configuration name="Example_11050_이항계수1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.조합론.Example_11050_이항계수1" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.그리디알고리즘단계.*" />
+          <option name="PATTERN" value="org.example.Backjoon.조합론.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_11399_ATM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.그리디알고리즘단계.Example_11399_ATM" />
+    <configuration name="Example_11401_이항계수3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.분할정복단계.Example_11401_이항계수3" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.그리디알고리즘단계.*" />
+          <option name="PATTERN" value="org.example.Backjoon.분할정복단계.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_13305_주유소" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.그리디알고리즘단계.Example_13305_주유소" />
+    <configuration name="Example_1629_곱셈" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.분할정복단계.Example_1629_곱셈" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.그리디알고리즘단계.*" />
+          <option name="PATTERN" value="org.example.Backjoon.분할정복단계.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_1541_잃어버린괄호" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.그리디알고리즘단계.Example_1541_잃어버린괄호" />
+    <configuration name="Example_1780_종이의개수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.분할정복단계.Example_1780_종이의개수" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.그리디알고리즘단계.*" />
+          <option name="PATTERN" value="org.example.Backjoon.분할정복단계.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Example_1931_회의실배정" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.그리디알고리즘단계.Example_1931_회의실배정" />
+    <configuration name="Example_1992_쿼드트리" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Backjoon.분할정복단계.Example_1992_쿼드트리" />
       <module name="CodingTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Backjoon.그리디알고리즘단계.*" />
+          <option name="PATTERN" value="org.example.Backjoon.분할정복단계.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Example_13305_주유소" />
-        <item itemvalue="Application.Example_1541_잃어버린괄호" />
-        <item itemvalue="Application.Example_11399_ATM" />
-        <item itemvalue="Application.Example_1931_회의실배정" />
-        <item itemvalue="Application.Example_11047_동전0" />
+        <item itemvalue="Application.Example_11401_이항계수3" />
+        <item itemvalue="Application.Example_11050_이항계수1" />
+        <item itemvalue="Application.Example_1629_곱셈" />
+        <item itemvalue="Application.Example_1780_종이의개수" />
+        <item itemvalue="Application.Example_1992_쿼드트리" />
       </list>
     </recent_temporary>
   </component>
@@ -383,6 +381,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/누적합단계/Example_25682_체스판다시칠하기2.java</url>
           <line>25</line>
           <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/분할정복단계/Example_2630_색종이만들기.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/분할정복단계/Example_2630_색종이만들기.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="246" />
         </line-breakpoint>
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Backjoon/Example_1193_분수찾기.java</url>
